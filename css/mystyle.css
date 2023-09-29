@@ -20,7 +20,7 @@
 .extraBoldText {
     font-size: 83px;
     font-weight: 900;
-    line-height: 0.7 !important;
+    /* line-height: 0.7 !important; */
 }
 
 .extraLardgeBoldText{
@@ -61,6 +61,10 @@
     width: 400px;
     height: 790px;
     float: right;
+}
+
+.slide3>p{
+    line-height: 0.7 !important;
 }
 
 .slide3List{
