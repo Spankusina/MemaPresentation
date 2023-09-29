@@ -1,0 +1,53 @@
+.leftText {
+    text-align: left;
+}
+
+.regularText{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.boldText{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.extraBoldText {
+    font-size: 83px;
+    font-weight: 900;
+}
+
+.blueText {
+    color: #53BCFF;
+}
+
+.nonOpacity {
+    opacity: 0;
+}
+
+.marginLeft {
+    margin-left: -100px !important;
+}
+
+.font {
+    font-family: Poppins, sans-serif;;
+}
+
+.flex{
+    display: flex;
+    justify-content: left;
+}
+
+.slide2{
+    margin-top: 30px;
+}
+
+.slide2 p{
+    margin: 0;
+}
+
+.slide2Phone {
+    width: 400px;
+    height: 790px;
+    float: right;
+}

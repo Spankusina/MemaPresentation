@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="css/mystyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<section data-auto-animate data-background-image="img/bg-slide1.png" data-autoslide="600">
+					<p class="leftText extraBoldText font fragment fade-right">MEMA</p>
+					<p class="leftText extraBoldText font blueText fragment fade-right">MARKETING</p>
+					<p class="leftText extraBoldText font fragment fade-right">PRESENTATION</p>
+					<p class="leftText regularText font fragment" data-autoslide="3000">New level of booking services in one app</p>
+				</section>
+
+				<section data-auto-animate data-auto-animate-id="two" data-background-image="img/bg-left.png"
+					data-background-position="bottom left" data-autoslide="600">
+
+					<img src="img/slide2-phone.png" alt="" class="slide2Phone fragment fade-up" data-fragment-index="1">
+
+					<p class="leftText extraBoldText font fragment fade-right" data-fragment-index="1">WHAT IS <span class="blueText">MEMA?</span></p>
+					<div class="flex"> 
+						<p class="boldText font blueText fragment" data-fragment-index="2">MEMA&nbsp</p>
+						<p class="boldText font fragment" data-fragment-index="3">IS A MARKETPLACE</p>
+					</div>
+					<div class="slide2 leftText font boldText fragment" data-fragment-index="4" data-autoslide="3000">
+						<p><span class="blueText">FOR</span> ONLINE</p>
+						<p>SERVICES BOOKING</p>
+						<p>AND EVENT SEARCH.</p>
+					</div>
+
+				</section>
+
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			controls: false,
+			autoSlide: 10000,
+			loop: true,
+			width: 1200,
+			height: 700,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
