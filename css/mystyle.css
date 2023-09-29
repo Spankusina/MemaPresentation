@@ -12,8 +12,19 @@
     font-weight: 700;
 }
 
+.smallBoldText {
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .extraBoldText {
     font-size: 83px;
+    font-weight: 900;
+    line-height: 0.7 !important;
+}
+
+.extraLardgeBoldText{
+    font-size: 120px;
     font-weight: 900;
 }
 
@@ -50,4 +61,61 @@
     width: 400px;
     height: 790px;
     float: right;
+}
+
+.slide3List{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: left;
+    margin: 40px 0 0 0;
+}
+
+.slide3List img {
+    float: left;
+    margin: 9px 0 0 0;
+}
+
+.slide3List p{
+    margin: 0 0 30px 40px;
+}
+
+/* .fragment.scale{
+    scale: 1;
+} */
+
+.fragment.scale.current-fragment{
+    scale: 1.1;
+    color: gray;
+}
+
+.blinkAnimate {
+    animation: blinkAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes blinkAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
 }
