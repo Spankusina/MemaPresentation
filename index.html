@@ -32,7 +32,7 @@
 				<section data-background-image="img/bg-left.png" data-background-position="bottom left"
 					data-autoslide="600">
 
-					<img src="img/slide2-phone.png" alt="" class="slide2Phone fragment fade-up" data-fragment-index="1">
+					<img src="img/slide2-phone.png" alt="" class="imgPhone fragment fade-up" data-fragment-index="1">
 
 					<p class="leftText extraBoldText font fragment fade-right" data-fragment-index="1">WHAT IS <span
 							class="blueText">MEMA?</span></p>
@@ -47,11 +47,11 @@
 					</div>
 				</section>
 
-				<section data-background-image="img/bg-left.png" data-background-position="bottom left" data-autoslide="800" class="slide3">
-					<img src="img/slide3-phone.png" alt="" class="slide2Phone fragment fade-up" data-fragment-index="1" data-autoslide="600">
+				<section data-background-image="img/bg-left.png" data-background-position="bottom left" data-autoslide="800">
+					<img src="img/slide3-phone.png" alt="" class="imgPhone fragment fade-up" data-fragment-index="1" data-autoslide="600">
 
-					<p class="leftText extraBoldText font fragment fade-right" data-fragment-index="1">WHAT IS <span class="blueText">MEMA </span></p>
-					<p class="leftText extraBoldText font fragment fade-right" data-fragment-index="1">OFFERING?</p>
+					<p class="leftText extraBoldText font smallSpacing fragment fade-right" data-fragment-index="1">WHAT IS <span class="blueText">MEMA </span></p>
+					<p class="leftText extraBoldText font smallSpacing fragment fade-right" data-fragment-index="1">OFFERING?</p>
 
 					<div class="flex font smallBoldText slide3List">
 						<div>
@@ -90,6 +90,17 @@
 				</section>
 
 				<section data-background-image="img/bg-left.png" data-background-position="bottom left" data-autoslide="800">
+					<img src="img/nout.png" alt="" class="imgNote fragment fade-up" data-fragment-index="1">
+
+					<p class="leftText extraBoldText font smallSpacing fragment fade-right" data-fragment-index="1">GROW BUISINESS</span></p>
+					<p class="leftText extraBoldText font blueText smallSpacing fragment fade-right" data-fragment-index="1">TOGETHER!</p>
+					<p class="leftText font smallBoldText normalSpacing marginUp20 fragment fade-right" data-fragment-index="2">We aim to promote economic and social development by scaling existing businesses, increasing profits and taking our partners to the next level.</p>
+					<p class="leftText font smallBoldText normalSpacing fragment fade-right" data-fragment-index="2" data-autoslide="3000">Join <span class="blueText">MEMA</span> and benefit from ready-made payment solutions, booking and customer communication systems, a large base of interested users, statistics and profit forecasting tools.</p>
+
+					<a href="www.mema.club" class="font slide6Link" target="_blank">www.mema.club</a>
+				</section>
+
+				<section data-background-image="img/bg-left.png" data-background-position="bottom left" data-autoslide="800">
 					<p class="font fragment fade-left" data-fragment-index="1">“DON’T FIND <span class="blueText">CUSTOMERS</span> FOR YOUR <span class="blueText">SERVICES,</span></p>
 					<p class="font fragment fade-right" data-fragment-index="1" data-autoslide="4000">FIND ENOUGH <span class="blueText">TIME</span> TO PROVIDE THEM”</p>
 				</section>
@@ -116,8 +127,10 @@
 			controls: false,
 			autoSlide: 5000,
 			loop: true,
-			width: 1200,
+			width: 1300,
 			height: 700,
+			autoAnimateEasing: 'ease',
+  autoAnimateUnmatched: true,
 
 			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
