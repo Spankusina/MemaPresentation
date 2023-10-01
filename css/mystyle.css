@@ -20,7 +20,6 @@
 .extraBoldText {
     font-size: 83px;
     font-weight: 900;
-    /* line-height: 0.7 !important; */
 }
 
 .extraLardgeBoldText{
@@ -85,6 +84,13 @@
     margin: 25px 20px 0 0 !important;
 }
 
+.imgSlide4 {
+    width: 610px;
+    height: 610px;
+    float: right;
+    margin: 220px -220px 0 0 !important;
+}
+
 .imgSlide8{
     width: 840px;
     height: 840px;
@@ -114,10 +120,36 @@
     margin: 0 0 30px 40px;
 }
 
-
 .fragment.scale.current-fragment{
     scale: 1.1;
     color: gray;
+}
+
+.slide4List{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin: 40px 0 0 0; */
+}
+
+.slide4List p{
+    text-align: center;
+}
+
+.slide4List ul{
+    padding: 40px 0 60px 0;
+}
+
+.slide4List ul:first-child{
+    border-right: 5px solid #53BCFF ;
+}
+
+.slide4List li{
+    list-style-type: none;
+    line-height: 1.1 !important;
+    background: url("../img/check-mark-cyan.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0 0 0 60px;
 }
 
 .slide6Link{
