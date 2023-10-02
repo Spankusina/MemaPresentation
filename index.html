@@ -22,12 +22,19 @@
 		<div class="slides">
 			<section>
 				<!-- slide 1 -->
-				<section data-background-image="img/1st-slide-bg.webp" data-autoslide="600">
-
+				<section data-background-image="img/1st-slide-bg.webp" data-autoslide="600" data-auto-animate>
 					<p class="leftText extraBoldText fragment fade-right">MEMA</p>
 					<p class="leftText extraBoldText blueText fragment fade-right">MARKETING</p>
 					<p class="leftText extraBoldText fragment fade-right">PRESENTATION</p>
-					<p class="leftText regularText fragment" data-autoslide="3000">
+					<p class="leftText regularText" style="opacity: 0;" data-id="bottom_text">
+						New level of booking services in one app
+					</p>
+				</section>
+				<section data-background-image="img/1st-slide-bg.webp" data-autoslide="3000" data-auto-animate>
+					<p class="leftText extraBoldText">MEMA</p>
+					<p class="leftText extraBoldText blueText">MARKETING</p>
+					<p class="leftText extraBoldText">PRESENTATION</p>
+					<p class="leftText regularText" style="opacity: 1" data-id="bottom_text">
 						New level of booking services in one app
 					</p>
 				</section>
@@ -118,6 +125,7 @@
 								ONLINE SUPPORT
 							</p>
 						</div>
+						<p class="fragment" data-fragment-index="10" data-autoslide="3000"></p>
 					</div>
 				</section>
 
@@ -232,7 +240,7 @@
 						existing businesses, increasing profits and taking our partners to
 						the next level.
 					</p>
-					<p class="leftText smallBoldText normalSpacing fragment fade-right" data-fragment-index="2" data-autoslide="7000">
+					<p class="leftText smallBoldText normalSpacing fragment fade-right" data-fragment-index="2" data-autoslide="10000">
 						Join <span class="blueText">MEMA</span> and benefit from
 						ready-made payment solutions, booking and customer communication
 						systems, a large base of interested users, statistics and profit
@@ -298,14 +306,14 @@
 	<script>
 		Reveal.initialize({
 			hash: false,
-			controls: false,
+			// controls: false,
 			autoSlide: 5000,
 			autoSlideStoppable: false,
 			loop: true,
 			width: 1300,
 			height: 700,
 			autoAnimateEasing: "ease",
-			autoAnimateDuration: 5.0,
+			autoAnimateDuration: 1.0,
 			autoAnimateUnmatched: true,
 			progress: false,
 			pause: false,
