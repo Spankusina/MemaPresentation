@@ -120,7 +120,7 @@ img.imgSlide4 {
 .slide4List li{
     list-style-type: none;
     line-height: 1.1;
-    background: url("../img/check-mark-cyan.svg");
+    background: url("../../img/check-mark-cyan.svg");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 0 0 0 60px;
