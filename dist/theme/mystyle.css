@@ -1,4 +1,12 @@
 /* Fonts */
+/* .fragment{
+    transition: all 1.2s ease !important;
+} */
+
+.reveal .fragment.custom{
+    transition: all 0.2s ease !important;
+}
+
 section {
     font-family: Poppins, sans-serif;
 }
@@ -89,6 +97,7 @@ section {
 
 .fragment.scale.current-fragment{
     scale: 1.1;
+    margin-left: 55px;
     color: gray;
 }
 
